@@ -1,0 +1,57 @@
+#about {
+
+
+    & li {
+        color: var(--text-color-secondary);
+        padding-left: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    & li:nth-child(1) {
+        background: url(../assets/icons/MapPin.svg) no-repeat;
+    }
+
+    & li:nth-child(2) {
+        background: url(../assets/icons/AirplaneTilt.svg) no-repeat;
+    }
+
+    & li:nth-child(3) {
+        background: url(../assets/icons/Image.svg) no-repeat;
+    }
+    
+}
+
+@media (width >= 80em){
+    #about{
+        padding-block: 2rem;
+
+        .container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        & .profile{
+            display: flex;
+            gap: 32px;
+        }
+        & .profile > div{
+            max-width: 386px;
+            padding-block: 1rem;
+        }
+        & img{
+            width: 176px;
+            height: auto;
+        }
+        & p{
+            color: var(--text-color-secondary);
+        }
+        & .about-info{
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            
+            width: 17.5rem;
+        }
+        
+    }
+}
