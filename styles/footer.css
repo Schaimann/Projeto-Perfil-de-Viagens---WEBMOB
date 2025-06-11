@@ -1,0 +1,21 @@
+footer {
+    text-align: center;
+    padding: 20px;
+    gap: 1rem;
+
+    & p {
+        color: var(--text-color-secondary);
+        font: var(--pg-md);
+    }
+    & .footer-links{
+        display: flex;
+        gap: 2rem;
+    }
+}
+
+@media (width >= 80em){
+    footer{
+        display: flex;
+        justify-content: space-between;
+    }
+}
