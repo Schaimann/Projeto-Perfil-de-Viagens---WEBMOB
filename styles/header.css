@@ -3,3 +3,9 @@ header{
         margin-right: auto;
     }
 }
+
+@media (width >= 80em){
+    & nav a:hover{
+        color: var(--brand-color);
+    }
+}
