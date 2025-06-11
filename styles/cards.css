@@ -1,0 +1,20 @@
+#features{
+
+    & .cards img{
+        max-width: auto;
+        max-height: 24.8rem;
+    }
+}
+
+@media (width >= 80em){
+    & .cards{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+    }
+    & .cards img{
+        width: 17.875rem;
+        height: 17.875rem;
+        object-fit: cover;
+    }
+}
